@@ -1,5 +1,5 @@
 @extends('web.layouts.main')
-
+@section('title', 'Homepage')
 
 @section('content')
     <!--============================ Hero Section ===================================-->
@@ -1108,7 +1108,7 @@
             </div>
 
             <div class="swiper mySwiper3 relative w-full ">
-                <div class="swiper-wrapper h-[350px] md:h-[380px] lg:h-[380px] pt-2">
+                <div class="swiper-wrapper h-87.5! md:h-95! lg:h-95! pt-2">
 
                     <!--========= Slide 1 =========-->
                     <div class="swiper-slide relative mx-auto px-5 flex items-start mb-2" data-aos="fade-right">

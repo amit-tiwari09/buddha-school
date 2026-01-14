@@ -3,8 +3,8 @@
   element with the given ID
 ======================================================== */
 function openModal(modalBtnId) {
-  const modal = document.getElementById(`${modalBtnId}`);
-  modal.classList.remove("hidden");
+    const modal = document.getElementById(`${modalBtnId}`);
+    modal.classList.remove("hidden");
 }
 
 /*=====================================================
@@ -12,8 +12,8 @@ function openModal(modalBtnId) {
   element with the given ID
 ======================================================== */
 function closeModal(modalBtnId) {
-  const modal = document.getElementById(`${modalBtnId}`);
-  modal.classList.add("hidden");
+    const modal = document.getElementById(`${modalBtnId}`);
+    modal.classList.add("hidden");
 }
 
 export { openModal, closeModal };

@@ -1,4 +1,6 @@
 @extends('web.layouts.main')
+@section('title', 'Gallery')
+
 
 @section('content')
     <!--============================ Main Section ===================================-->

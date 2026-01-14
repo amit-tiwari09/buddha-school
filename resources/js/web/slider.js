@@ -1,10 +1,9 @@
 import Swiper from "swiper";
-import { Navigation, Pagination } from "swiper/modules";
+import { Navigation, Pagination, Autoplay } from "swiper/modules";
 
 const progressCircle = document.querySelector(".autoplay-progress svg");
 const progressContent = document.querySelector(".autoplay-progress span");
 
-console.log(document.querySelector(".swiper-button-next"));
 /*=================================
 Hero Section Slider
 ===================================*/
@@ -23,12 +22,13 @@ new Swiper(".mySwiper", {
         clickable: true,
     },
 });
+console.log(progressCircle);
 
 /*=================================
 Message Section Slider
 ===================================*/
 var swiper = new Swiper(".mySwiper2", {
-    modules: [Navigation, Pagination],
+    modules: [Navigation, Pagination, Autoplay],
     loop: true,
     slidesPerView: 1,
     spaceBetween: 0,

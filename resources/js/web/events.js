@@ -1,5 +1,5 @@
 import { closeModal, openModal } from "./modal";
-import { markActivePageMenu, toggleSidebar, toggleSubmenu } from "./sidebar";
+import { toggleSidebar, toggleSubmenu } from "./sidebar";
 
 document.addEventListener("click", function (event) {
     // Toggle sidebar when an element with "toggle-sidebar" class is clicked
@@ -22,6 +22,3 @@ document.addEventListener("click", function (event) {
         closeModal(event.target.getAttribute("data-targetModalId"));
     }
 });
-
-// Highlight the active page link in the menu based on the current URL
-markActivePageMenu();

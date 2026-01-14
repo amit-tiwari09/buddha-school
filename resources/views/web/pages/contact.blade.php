@@ -1,4 +1,5 @@
 @extends('web.layouts.main')
+@section('title', 'Contact')
 
 
 @section('content')
