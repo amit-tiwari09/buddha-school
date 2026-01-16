@@ -33,15 +33,15 @@
                         <div
                             class="col-span-4 xl:col-span-3 grid grid-cols-1 md:grid-cols-2 lg:grid-cols-4 xl:grid-cols-6 gap-4">
 
-                            <!--==== Title Filter ====-->
+                            <!--==== Email Filter ====-->
                             <div>
                                 <label class="block text-xs font-semibold text-gray-700 mb-2 flex items-center gap-1.5">
-                                    <img src="{{ asset('assets/svg/book-type.svg') }}"
-                                        class="w-3.5 h-3.5 pointer-events-none" alt="">
-                                    Title
+                                    <img src="{{ asset('assets/svg/mail.svg') }}" class="w-3.5 h-3.5 pointer-events-none"
+                                        alt="">
+                                    Email
                                 </label>
                                 <div class="relative">
-                                    <input type="text" placeholder="Title Filter"
+                                    <input type="text" placeholder="Title Email"
                                         class="w-full px-4 py-2.5 text-sm text-gray-700 bg-white border-2 border-gray-200 rounded-lg focus:outline-none focus:ring-2 focus:ring-blue-500 focus:border-blue-500 transition-all shadow-sm hover:shadow-md placeholder-gray-400">
                                 </div>
                             </div>
